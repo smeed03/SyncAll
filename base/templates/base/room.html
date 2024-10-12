@@ -1,0 +1,26 @@
+{% extends 'base/main.html' %}
+
+{% block content %}
+
+<main>
+    <div id="room-name-wrapper">
+        <p>Room name: <span id="room-name"></span></p>
+    </div>
+
+    <div id="vid-streams">
+        <div class="vid-container" id="user-wrapper-1">
+            <div class="username-wrapper"><span class="username">User 1</span></div>
+            <div class="vid-player" id="user-1"></div>
+        </div>
+        <div class="vid-container" id="user-wrapper-2">
+            <div class="username-wrapper"><span class="username">User 2</span></div>
+            <div class="vid-player" id="user-2"></div>
+        </div>
+        <div class="vid-container" id="user-wrapper-3">
+            <div class="username-wrapper"><span class="username">User 3</span></div>
+            <div class="vid-player" id="user-3"></div>
+        </div>
+    </div>
+</main>
+
+{% endblock content %}
